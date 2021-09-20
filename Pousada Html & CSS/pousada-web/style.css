@@ -1,0 +1,325 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body, header, footer {
+    width: 1600px;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container-head {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    position: fixed;
+    background-color: #fff;
+    width: 1601px;
+    top: 0;
+}
+
+.link-topo {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.link-logo {
+    text-decoration: none;
+    color:black;
+}
+
+span {
+    color:rgb(107, 135, 226);
+    text-decoration: none;
+}
+
+.container-header {
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    padding-right: 0%;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.container-body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: 1600px;
+}
+
+.container-titulo {
+    font-size: 26px;
+    height: 600px;
+    width: 1600px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url("assets/img-fundo.jpg");
+    color: #fff;
+}
+
+.titulo-color {
+    position: absolute;
+    background-color: rgb(42, 126, 101);
+    display: flex;
+    flex-flow: column no-wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    opacity: 80%;
+    height: 200px;
+    width: 500px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 3px;
+    order: 0;
+    text-align: center;
+}
+
+.container-welcome {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0 25px 0;
+}
+
+.container-quartos-body {
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    padding: 25px 200px 25px 200px;
+    text-decoration: none;
+}
+
+.container-solteiro {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.container-casal {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.container-familia {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.titulo-quarto {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.linha-horizontal {
+    width: 380px;
+    border: 1px solid rgb(42, 126, 101);
+}
+
+#rota {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding: 25px 0 25px 0;
+}
+
+#sobre {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding: 25px 0 25px 0;
+}
+
+.container-sobre {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 1200px;
+    padding-left: 200px;
+    padding-bottom: 40px;
+}
+
+
+.container-pousada {
+    display: flex;
+    flex-flow: column no-wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.texto-pousada {
+    width: 400px;
+}
+
+.container-quartos-sobre {
+    display: flex;
+    flex-flow: column no-wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.texto-quartos-sobre {
+    width: 400px;
+    padding-left: 100px;
+}
+
+.container-alimentacao {
+    display: flex;
+    flex-flow: column no-wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.texto-alimentacao {
+    width: 400px;
+}
+
+.container-recepcao {
+    display: flex;
+    flex-flow: column no-wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center; 
+}
+
+.texto-recepcao {
+    width: 400px;
+    padding-left: 100px;
+}
+
+.container-footer {
+    background-color: rgb(42, 126, 101);
+}
+
+.footer-controller {
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content:center;
+    align-self: center;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 20px;
+}
+
+#copyright {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    font-weight: bold;
+    color:#fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.contato {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.endereco {
+    width: 300px;
+    display: flex;
+    flex-flow: row no-wrap;
+    
+}
+
+.text-endereco {
+    text-decoration: none;
+}
+
+.img-endereco {
+    margin: 5px;
+}
+
+.tel {
+    width: 400px;
+    display: flex;
+    flex-flow: row no-wrap;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.tel p{
+    text-decoration: none;
+    color: #fff;
+}
+
+.img-tel {
+    margin: 5px;
+}
+
+.booking {
+    width: 200px;
+    display: flex;
+    flex-flow: row no-wrap;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.text-booking{
+    text-decoration: none;
+}
+
+.img-booking {
+    margin: 5px;
+}
+
+.linha-horizontal2 {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    width: 1200px;
+    border: 1px solid rgb(19, 77, 58);
+}
