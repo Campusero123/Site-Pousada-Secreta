@@ -5,3 +5,4 @@ Site de uma pousada fantasiosa, onde estão disponíveis:
 - Informações de contato no rodapé e link para reserva de quartos.
 
 * Site construído com HTML5 e CSS3.
+* IDE: Visual Studio Code.
