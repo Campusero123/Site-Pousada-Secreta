@@ -1,0 +1,315 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body, header, footer {
+    width: 1600px;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container-head {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    position: fixed;
+    background-color: #fff;
+    width: 1601px;
+    top: 0;
+}
+
+.link-topo {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.link-logo {
+    text-decoration: none;
+    color:black;
+}
+
+span {
+    color:rgb(107, 135, 226);
+    text-decoration: none;
+}
+
+.container-header {
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    padding-right: 0%;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.container-body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: 1600px;
+}
+
+#img-fundo {
+    font-size: 26px;
+    height: 300px;
+    width: 1600px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url("assets/img-fundo.jpg");
+}
+
+#title-solteiro{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0 25px 0;
+    position: relative;
+}
+
+#fotos-solteiro {
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 1250px;
+}
+
+#padding-solteiro {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#text-solteiro {
+    font-weight: bold;
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#info-solteiro {
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 660px;
+}
+
+.photo-solteiro {
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-casal{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0 25px 0;
+    position: relative;
+}
+
+#fotos-casal {
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 1250px;
+}
+
+#padding-casal {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#text-casal {
+    font-weight: bold;
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#info-casal {
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 610px;
+}
+
+.photo-casal {
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-familia{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0 25px 0;
+    position: relative;
+}
+
+#fotos-familia {
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 1250px;
+}
+
+#padding-familia {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#text-familia {
+    font-weight: bold;
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#info-familia {
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 710px;
+}
+
+.photo-familia {
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-footer {
+    background-color: rgb(42, 126, 101);
+    padding-top: 25px;
+    position: relative;
+}
+
+.footer-controller {
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content:center;
+    align-self: center;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 20px;
+}
+
+#copyright {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    font-weight: bold;
+    color:#fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.contato {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.endereco {
+    width: 300px;
+    display: flex;
+    flex-flow: row no-wrap;
+    
+}
+
+.text-endereco {
+    text-decoration: none;
+}
+
+.img-endereco {
+    margin: 5px;
+}
+
+.tel {
+    width: 400px;
+    display: flex;
+    flex-flow: row no-wrap;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.tel p{
+    text-decoration: none;
+    color: #fff;
+}
+
+.img-tel {
+    margin: 5px;
+}
+
+.booking {
+    width: 200px;
+    display: flex;
+    flex-flow: row no-wrap;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.text-booking{
+    text-decoration: none;
+}
+
+.img-booking {
+    margin: 5px;
+}
+
+.linha-horizontal2 {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    width: 1200px;
+    border: 1px solid rgb(19, 77, 58);
+}
